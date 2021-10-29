@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "io/github/monull/halloween/mixin/MixinDefaultBiomeCreator": {
+      "createPlains": "Lnet/minecraft/class_5478;method_30701(Z)Lnet/minecraft/class_1959;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/github/monull/halloween/mixin/MixinDefaultBiomeCreator": {
+        "createPlains": "Lnet/minecraft/class_5478;method_30701(Z)Lnet/minecraft/class_1959;"
+      }
+    }
+  }
+}
