@@ -180,3 +180,105 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.util.Identifier.toS
 [22:00:25] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Spectator Mode
 [22:00:29] [Server thread/INFO] (Minecraft) [Player643: Set own game mode to Creative Mode]
 [22:00:29] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
+[22:01:20] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:01:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:01:21] [Server thread/ERROR] (Minecraft) Failed to save chunk 3,78
+java.lang.NullPointerException: Cannot invoke "net.minecraft.util.Identifier.toString()" because the return value of "net.minecraft.util.registry.Registry.getId(Object)" is null
+	at net.minecraft.structure.StructurePiece.toNbt(StructurePiece.java:109) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.structure.StructureStart.toNbt(StructureStart.java:121) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.world.ChunkSerializer.writeStructures(ChunkSerializer.java:391) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.world.ChunkSerializer.serialize(ChunkSerializer.java:346) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.save(ThreadedAnvilChunkStorage.java:686) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_20583(ThreadedAnvilChunkStorage.java:389) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.save(ThreadedAnvilChunkStorage.java:386) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ServerChunkManager.save(ServerChunkManager.java:308) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ServerWorld.save(ServerWorld.java:705) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.save(MinecraftServer.java:583) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:87) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:697) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[22:01:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:01:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:01:21] [Server thread/INFO] (Minecraft) Player643 lost connection: Disconnected
+[22:01:21] [Server thread/INFO] (Minecraft) Player643 left the game
+[22:01:21] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[22:01:21] [Server thread/INFO] (Minecraft) Stopping server
+[22:01:21] [Server thread/INFO] (Minecraft) Saving players
+[22:01:21] [Server thread/INFO] (Minecraft) Saving worlds
+[22:01:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:01:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:01:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:01:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[22:01:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:01:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:01:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:01:24] [Render thread/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
+[22:01:26] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:01:26] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:01:26] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:01:26] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:01:26] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:01:26] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1), Fabric Game Test API (v1))
+[22:01:26] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[22:01:26] [Render thread/INFO] (Minecraft) Loaded 1137 advancements
+[22:01:26] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 82 new biomes in 358.4 ¥ìs
+[22:01:27] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:01:27] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.17.1
+[22:01:27] [Server thread/INFO] (Minecraft) Generating keypair
+[22:01:29] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:01:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:01:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:01:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
+[22:01:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
+[22:01:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[22:01:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[22:01:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 16%
+[22:01:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 19%
+[22:01:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 26%
+[22:01:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 26%
+[22:01:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 31%
+[22:01:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 34%
+[22:01:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 38%
+[22:01:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 43%
+[22:01:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 49%
+[22:01:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 53%
+[22:01:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 58%
+[22:01:38] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[22:01:39] [Render thread/INFO] (Minecraft) Preparing spawn area: 64%
+[22:01:39] [Render thread/INFO] (Minecraft) Preparing spawn area: 70%
+[22:01:39] [Render thread/INFO] (Minecraft) Preparing spawn area: 74%
+[22:01:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 77%
+[22:01:41] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
+[22:01:41] [Render thread/INFO] (Minecraft) Preparing spawn area: 87%
+[22:01:41] [Render thread/INFO] (Minecraft) Preparing spawn area: 90%
+[22:01:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 91%
+[22:01:42] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
+[22:01:42] [Render thread/INFO] (Minecraft) Time elapsed: 12832 ms
+[22:01:42] [Server thread/INFO] (Minecraft) Player643[local:E:aa645779] logged in with entity id 2157 at (-231.5, 66.0, -28.5)
+[22:01:42] [Server thread/INFO] (Minecraft) Player643 joined the game
+[22:01:42] [Netty Local Client IO #1/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
+[22:01:43] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:01:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:01:43] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[22:01:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:01:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:02:55] [Render thread/INFO] (Minecraft) [CHAT] The nearest halloween:grave_structure is at [-1216, ~, -464] (1075 blocks away)
+[22:02:55] [Server thread/ERROR] (Minecraft) Failed to save chunk -76,-29
+java.lang.NullPointerException: null
+[22:02:57] [Server thread/INFO] (Minecraft) [Player643: Teleported Player643 to -1215.500000, 66.000000, -463.500000]
+[22:02:57] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player643 to -1215.500000, 66.000000, -463.500000
+[22:02:59] [Server thread/INFO] (Minecraft) [Player643: Set own game mode to Spectator Mode]
+[22:02:59] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Spectator Mode
+[22:03:01] [Server thread/INFO] (Minecraft) [Player643: Set own game mode to Creative Mode]
+[22:03:01] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
