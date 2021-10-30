@@ -1,5 +1,5 @@
-[22:17:49] [main/INFO] (FabricLoader) Loading for game Minecraft 1.17.1
-[22:17:49] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 50 mods:
+[21:56:28] [main/INFO] (FabricLoader) Loading for game Minecraft 1.17.1
+[21:56:29] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 50 mods:
 	- fabric@0.41.0+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.3.0+cbda931818
@@ -50,26 +50,26 @@
 	- halloween@1.0
 	- java@16
 	- minecraft@1.17.1
-[22:17:49] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/yongh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/ef410951e94c7f4939cc74c86f8df371827818a4/sponge-mixin-0.9.4+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
-[22:17:50] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
-[22:17:50] [main/INFO] (mixin) Compatibility level set to JAVA_16
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ServerWorld$ServerEntityHandler is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/world/ClientWorld$ClientEntityHandler is public in fabric-lifecycle-events-v1.mixins.json:client.ClientWorldEntityLoaderMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/block/BlockModelRenderer$AmbientOcclusionCalculator is public in fabric-renderer-indigo.mixins.json:MixinAmbientOcclusionCalculator and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask is public in fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/server/network/ServerPlayNetworkHandler$1 is public in fabric-events-interaction-v0.mixins.json:MixinServerPlayNetworkHandler and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/village/TradeOffers$TypeAwareBuyForOneEmeraldFactory is public in fabric-object-builder-v1.mixins.json:TypeAwareTradeMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/font/FontManager$1 is public in fabric-resource-loader-v0.mixins.json:client.FontManagerResourceReloadListenerMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/server/command/GameRuleCommand$1 is public in fabric-game-rule-api-v1.mixins.json:GameRuleCommandVisitorMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/gui/screen/world/EditGameRulesScreen$RuleListWidget$1 is public in fabric-game-rule-api-v1.mixins.json:client.RuleListWidgetVisitorMixin and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ThreadedAnvilChunkStorage$EntityTracker is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/client/particle/ParticleManager$SimpleSpriteProvider is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/data/server/AbstractTagProvider$ObjectBuilder is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[22:17:50] [main/WARN] (mixin) @Mixin target net/minecraft/tag/RequiredTagList$TagWrapper is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
-[22:17:51] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
-[22:17:51] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[22:17:57] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:17:58] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[21:56:29] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/yongh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/ef410951e94c7f4939cc74c86f8df371827818a4/sponge-mixin-0.9.4+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
+[21:56:29] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[21:56:29] [main/INFO] (mixin) Compatibility level set to JAVA_16
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ServerWorld$ServerEntityHandler is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/world/ClientWorld$ClientEntityHandler is public in fabric-lifecycle-events-v1.mixins.json:client.ClientWorldEntityLoaderMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/block/BlockModelRenderer$AmbientOcclusionCalculator is public in fabric-renderer-indigo.mixins.json:MixinAmbientOcclusionCalculator and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask is public in fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/server/network/ServerPlayNetworkHandler$1 is public in fabric-events-interaction-v0.mixins.json:MixinServerPlayNetworkHandler and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/village/TradeOffers$TypeAwareBuyForOneEmeraldFactory is public in fabric-object-builder-v1.mixins.json:TypeAwareTradeMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/font/FontManager$1 is public in fabric-resource-loader-v0.mixins.json:client.FontManagerResourceReloadListenerMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/server/command/GameRuleCommand$1 is public in fabric-game-rule-api-v1.mixins.json:GameRuleCommandVisitorMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/gui/screen/world/EditGameRulesScreen$RuleListWidget$1 is public in fabric-game-rule-api-v1.mixins.json:client.RuleListWidgetVisitorMixin and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ThreadedAnvilChunkStorage$EntityTracker is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/client/particle/ParticleManager$SimpleSpriteProvider is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/data/server/AbstractTagProvider$ObjectBuilder is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[21:56:30] [main/WARN] (mixin) @Mixin target net/minecraft/tag/RequiredTagList$TagWrapper is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
+[21:56:31] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[21:56:31] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[21:56:36] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:56:37] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-2.3.31.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:112) ~[authlib-2.3.31.jar:?]
@@ -91,84 +91,92 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:47) ~[authlib-2.3.31.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:104) ~[authlib-2.3.31.jar:?]
 	... 13 more
-[22:17:58] [Render thread/INFO] (Minecraft) Setting user: Player98
-[22:17:58] [Render thread/WARN] (mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zzn000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[22:17:59] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[22:17:59] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
-[22:18:02] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
-[22:18:02] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Loader, Fabric Transfer API (v1), Fabric Structure API (v1), Fabric Containers (v0), Fabric Dimensions API (v1), Fabric Object Builder API (v1), Fabric Game Rule API (v1), Fabric API Base, Fabric Rendering Data Attachment (v1), Fabric Textures (v0), Fabric Rendering Fluids (v1), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric API, Fabric Particles (v1), Fabric Networking (v0), Fabric API Lookup API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Command API (v1), Fabric Screen API (v1), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Events Interaction (v0), Fabric Item API (v1), Fabric Crash Report Info (v1), Fabric Entity Events (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Key Binding API (v1), Fabric Resource Loader (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Game Test API (v1), Fabric Biome API (v1), Fabric Commands (v0), Fabric Registry Sync (v0), Fabric Mining Levels (v0), Fabric Networking API (v1), Fabric Events Lifecycle (v0), Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0))
-[22:18:04] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[22:18:04] [Worker-Main-8/WARN] (Minecraft) Exception loading blockstate definition: halloween:blockstates/phase_block.json: java.io.FileNotFoundException: halloween:blockstates/phase_block.json
-[22:18:04] [Worker-Main-8/WARN] (Minecraft) Exception loading blockstate definition: 'halloween:blockstates/phase_block.json' missing model for variant: 'halloween:phase_block#'
-[22:18:06] [Render thread/INFO] (Minecraft) OpenAL initialized.
-[22:18:06] [Render thread/INFO] (Minecraft) Sound engine started
-[22:18:06] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[22:18:07] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22:18:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[22:18:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22:18:09] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[22:18:17] [Render thread/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
-[22:18:18] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:18:18] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:18:18] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:18:18] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:18:18] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:18:18] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1), Fabric Game Test API (v1))
-[22:18:18] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[22:18:19] [Render thread/INFO] (Minecraft) Loaded 1137 advancements
-[22:18:19] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 82 new biomes in 2.342 ms
-[22:18:21] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:18:21] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.17.1
-[22:18:21] [Server thread/INFO] (Minecraft) Generating keypair
-[22:18:21] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[22:18:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:18:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
-[22:18:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 48%
-[22:18:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 74%
-[22:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 87%
-[22:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 90%
-[22:18:28] [Render thread/INFO] (Minecraft) Time elapsed: 7301 ms
-[22:18:29] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
-[22:18:29] [Server thread/INFO] (Minecraft) Player98[local:E:6558b570] logged in with entity id 250 at (-220.35660915616882, 75.36249199053395, 59.32892972193537)
-[22:18:29] [Server thread/INFO] (Minecraft) Player98 joined the game
-[22:18:29] [Netty Local Client IO #0/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
-[22:18:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:18:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:18:30] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[22:18:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:18:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:18:34] [Render thread/INFO] (Minecraft) [CHAT] The nearest halloween:grave_structure is at [672, ~, 272] (918 blocks away)
-[22:18:36] [Server thread/INFO] (Minecraft) [Player98: Teleported Player98 to 672.500000, 75.362492, 272.500000]
-[22:18:36] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player98 to 672.500000, 75.362492, 272.500000
-[22:18:58] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:18:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:18:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:18:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:18:58] [Server thread/INFO] (Minecraft) Player98 lost connection: Disconnected
-[22:18:58] [Server thread/INFO] (Minecraft) Player98 left the game
-[22:18:58] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[22:18:58] [Server thread/INFO] (Minecraft) Stopping server
-[22:18:58] [Server thread/INFO] (Minecraft) Saving players
-[22:18:58] [Server thread/INFO] (Minecraft) Saving worlds
-[22:18:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:18:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:18:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:18:59] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[22:18:59] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:18:59] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:18:59] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[22:19:00] [Render thread/INFO] (Minecraft) Stopping!
+[21:56:37] [Render thread/INFO] (Minecraft) Setting user: Player643
+[21:56:37] [Render thread/WARN] (mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zzn000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:56:38] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[21:56:38] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[21:56:40] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[21:56:41] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Loader, Fabric Transfer API (v1), Fabric Structure API (v1), Fabric Containers (v0), Fabric Dimensions API (v1), Fabric Object Builder API (v1), Fabric Game Rule API (v1), Fabric API Base, Fabric Rendering Data Attachment (v1), Fabric Textures (v0), Fabric Rendering Fluids (v1), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric API, Fabric Particles (v1), Fabric Networking (v0), Fabric API Lookup API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Command API (v1), Fabric Screen API (v1), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Events Interaction (v0), Fabric Item API (v1), Fabric Crash Report Info (v1), Fabric Entity Events (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Key Binding API (v1), Fabric Resource Loader (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Game Test API (v1), Fabric Biome API (v1), Fabric Commands (v0), Fabric Registry Sync (v0), Fabric Mining Levels (v0), Fabric Networking API (v1), Fabric Events Lifecycle (v0), Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0))
+[21:56:42] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[21:56:43] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: halloween:blockstates/phase_block.json: java.io.FileNotFoundException: halloween:blockstates/phase_block.json
+[21:56:43] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'halloween:blockstates/phase_block.json' missing model for variant: 'halloween:phase_block#'
+[21:56:44] [Render thread/INFO] (Minecraft) OpenAL initialized.
+[21:56:44] [Render thread/INFO] (Minecraft) Sound engine started
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:56:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:56:47] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:56:47] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:56:47] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:57:43] [Render thread/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
+[21:57:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:57:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:57:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:57:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:57:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:57:46] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1), Fabric Game Test API (v1))
+[21:57:46] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[21:57:46] [Render thread/INFO] (Minecraft) Loaded 1137 advancements
+[21:57:46] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 82 new biomes in 2.207 ms
+[21:57:47] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:57:47] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.17.1
+[21:57:47] [Server thread/INFO] (Minecraft) Generating keypair
+[21:57:50] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:57:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:57:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:57:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[21:57:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 5%
+[21:57:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[21:57:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 15%
+[21:57:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 21%
+[21:57:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 26%
+[21:57:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 32%
+[21:57:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 38%
+[21:57:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 45%
+[21:57:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 50%
+[21:57:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 58%
+[21:57:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 67%
+[21:57:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 74%
+[21:57:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 79%
+[21:57:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 79%
+[21:57:59] [Render thread/INFO] (Minecraft) Time elapsed: 8484 ms
+[21:57:59] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
+[21:57:59] [Server thread/INFO] (Minecraft) Player643[local:E:9c794d5e] logged in with entity id 181 at (-240.5, 65.0, 235.5)
+[21:57:59] [Server thread/INFO] (Minecraft) Player643 joined the game
+[21:57:59] [Netty Local Client IO #0/ERROR] (Minecraft) Structure start: Not a JSON object: "minecraft:ruined_portal"; Not a JSON object: "minecraft:stronghold"; Not a JSON object: "minecraft:mineshaft"; Not a JSON object: "minecraft:pillager_outpost"; Not a JSON object: "minecraft:village_plains"
+[21:58:00] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[21:58:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:58:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:58:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:58:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:00:19] [Render thread/INFO] (Minecraft) [CHAT] The nearest halloween:grave_structure is at [48, ~, 1248] (1053 blocks away)
+[22:00:19] [Server thread/ERROR] (Minecraft) Failed to save chunk 3,78
+java.lang.NullPointerException: Cannot invoke "net.minecraft.util.Identifier.toString()" because the return value of "net.minecraft.util.registry.Registry.getId(Object)" is null
+	at net.minecraft.structure.StructurePiece.toNbt(StructurePiece.java:109) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.structure.StructureStart.toNbt(StructureStart.java:121) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.world.ChunkSerializer.writeStructures(ChunkSerializer.java:391) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.world.ChunkSerializer.serialize(ChunkSerializer.java:346) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.save(ThreadedAnvilChunkStorage.java:686) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_18843(ThreadedAnvilChunkStorage.java:444) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.unloadChunks(ThreadedAnvilChunkStorage.java:425) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.tick(ThreadedAnvilChunkStorage.java:402) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ServerChunkManager.tick(ServerChunkManager.java:326) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:372) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:891) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:831) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:96) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:697) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[minecraft-1.17.1-mapped-net.fabricmc.yarn-1.17.1+build.52-v2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[22:00:20] [Server thread/INFO] (Minecraft) [Player643: Teleported Player643 to 48.500000, 65.000000, 1248.500000]
+[22:00:20] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player643 to 48.500000, 65.000000, 1248.500000
+[22:00:25] [Server thread/INFO] (Minecraft) [Player643: Set own game mode to Spectator Mode]
+[22:00:25] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Spectator Mode
+[22:00:29] [Server thread/INFO] (Minecraft) [Player643: Set own game mode to Creative Mode]
+[22:00:29] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
