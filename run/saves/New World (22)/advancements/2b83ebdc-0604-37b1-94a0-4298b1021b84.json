@@ -1,0 +1,16 @@
+{
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2021-10-31 16:29:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2021-10-31 16:29:08 +0900",
+      "minecraft:plains": "2021-10-31 16:28:56 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

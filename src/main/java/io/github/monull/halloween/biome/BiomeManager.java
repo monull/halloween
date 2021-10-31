@@ -1,5 +1,6 @@
 package io.github.monull.halloween.biome;
 
+import io.github.monull.halloween.structure.StructureRegistry;
 import net.fabricmc.fabric.api.biome.v1.OverworldBiomes;
 import net.fabricmc.fabric.api.biome.v1.OverworldClimate;
 import net.minecraft.block.Blocks;
@@ -33,6 +34,7 @@ public class BiomeManager {
         SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
 
         GenerationSettings.Builder generationSettings = new GenerationSettings.Builder();
+        generationSettings.structureFeature(StructureRegistry.CONFIGURED_STRUCTURE);
         generationSettings.surfaceBuilder(SURFACE_BUILDER);
         DefaultBiomeFeatures.addSprings(generationSettings);
 
@@ -44,10 +46,10 @@ public class BiomeManager {
                 .temperature(0.9F)
                 .downfall(0.9F)
                 .effects(new BiomeEffects.Builder()
-                        .waterColor(0xB153EF)
-                        .waterFogColor(0xD976ED)
-                        .fogColor(0xA7AA9D)
-                        .skyColor(0xD87300)
+                        .waterColor(0x800080)
+                        .waterFogColor(0xb232b2)
+                        .fogColor(0xD87300)
+                        .skyColor(0xFFFFFF)
                         .build())
                 .spawnSettings(spawnSettings.build())
                 .generationSettings(generationSettings.build())

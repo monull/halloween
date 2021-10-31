@@ -13,6 +13,9 @@ import net.minecraft.entity.mob.ZombieEntity;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.network.packet.s2c.play.TitleS2CPacket;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.LiteralText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
@@ -94,7 +97,9 @@ public class HalloweenPhase {
                     ServerWorld serverWorld = HalloweenMod.world;
                     serverWorld.getPlayers().forEach(player -> {
                         if (title) {
+                            bossBar.setVisible(false);
                             player.networkHandler.sendPacket(new TitleS2CPacket(new LiteralText("§6 Happy Halloween!")));
+                            serverWorld.playSound(player, pos, SoundEvents.UI_TOAST_CHALLENGE_COMPLETE, SoundCategory.MASTER, 0.9F, 1.0F);
                             title = false;
                         }
                     });

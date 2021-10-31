@@ -15,7 +15,6 @@ public class StructureRegistry {
     public static final StructureFeature<DefaultFeatureConfig> GRAVE_STRUCTURE = new GraveStructure(DefaultFeatureConfig.CODEC);
     public static final ConfiguredStructureFeature<DefaultFeatureConfig, ? extends StructureFeature<DefaultFeatureConfig>> CONFIGURED_STRUCTURE = GRAVE_STRUCTURE.configure(new DefaultFeatureConfig());
     public static final StructurePieceType WALL_PIECE = WallsPiece::new;
-    public static final StructurePieceType GRAVE_1 = Grave1Piece::new;
 
     public static void registerStructures() {
         FabricStructureBuilder.create(new Identifier("halloween", "grave_structure"), GRAVE_STRUCTURE)

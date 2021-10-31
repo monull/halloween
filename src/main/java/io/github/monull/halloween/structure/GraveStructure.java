@@ -37,8 +37,6 @@ public class GraveStructure extends StructureFeature<DefaultFeatureConfig> {
 
             WallsPiece wallsPiece = new WallsPiece(random, blockX, blockY, blockZ);
             this.children.add(wallsPiece);
-            Grave1Piece grave1 = new Grave1Piece(random, blockX + 4, blockY, blockZ + 10, wallsPiece.getFacing());
-            this.children.add(grave1);
             setBoundingBoxFromChildren();
         }
     }

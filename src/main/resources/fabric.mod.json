@@ -22,7 +22,7 @@
     ]
   },
   "mixins": [
-    "halloween.mixin.json"
+
   ],
 
   "depends": {
